@@ -6,9 +6,11 @@ import warnings
 
 import pandas as pd
 
-from Main.Correlation_Analysis import statistical_description_set, linear_test_set, pearson_correlation_set
-from Main.Regression_Model import stepwise_linear_regression_set
-
+from Main.Correlation_Analysis import statistical_description_set, linear_test_set, pearson_correlation_set, \
+    spearman_correlation_set
+from Main.Reduced_Dimensional_Model import factor_analysis_set
+from Main.Regression_Model import stepwise_linear_regression_set, linear_regression_set
+from PyChartsTool.liner_aqi import liner_aqi
 
 # 忽略openpyxl警告
 warnings.filterwarnings("ignore")
@@ -29,11 +31,18 @@ Weather_Data = SQ_TenYears_Data.iloc[:, 9:13]
 Research_Target = SQ_TenYears_Data.iloc[:, 3:13]
 # print(Research_Target)
 if __name__ == '__main__':
+    # 0.Echarts
+    liner_aqi(Year_Data, AQI_Data)
     # 1.相关性分析
     statistical_description_set(Research_Target)
     linear_test_set(Research_Target)
     pearson_correlation_set(Research_Target)
+    spearman_correlation_set(Research_Target)
     # 2.多元线性回归方程
-    stepwise_linear_regression_set(Research_Target)
-    # 3.主成分分析
-    # 4.BP神经网络预测
+    stepwise_linear_regression_set(Research_Target, Pollutants_Data.iloc[:, 0])
+    linear_regression_set(Research_Target, Pollutants_Data.iloc[:, 0])
+
+    # # 3.主成分分析
+    # factor_num = int(input("请输入主成分个数："))
+    # factor_analysis_set(Research_Target, factor_num)
+    # # 4.BP神经网络预测

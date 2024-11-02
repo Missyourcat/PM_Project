@@ -4,6 +4,7 @@
 # @system: Win10
 import pandas as pd
 import numpy as np
+from matplotlib import pyplot as plt
 from scipy.stats import skew, kurtosis
 
 def statistical_description(element_parameters):
@@ -26,6 +27,25 @@ def statistical_description(element_parameters):
         '峰度': KURTOSIS,
         '标准差': STD
     })
+    # 创建一个图像和子图
+    fig, axes = plt.subplots(nrows=5, ncols=2, figsize=(15, 20))  # 调整nrows和ncols以适应你的数据集
+    axes = axes.flatten()  # 将二维数组转换成一维
 
-    print(RESULT)
+    # 对每个特征单独绘制箱型图
+    for i, column in enumerate(element_parameters.columns):
+        ax = axes[i]
+        ax.boxplot(element_parameters[column], showmeans=True)
+        ax.set_title(f'箱型图 - {column}')
+        ax.set_ylabel('Value')
+
+    # 调整布局，避免重叠
+    plt.tight_layout()
+
+    # 保存图像
+    plt.savefig('../Chart/boxplots.png', bbox_inches='tight', dpi=300)
+
+    # 显示图像
+    plt.show()
+
+    print(RESULT.round(2))
     return RESULT

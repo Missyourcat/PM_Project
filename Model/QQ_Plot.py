@@ -1,7 +1,3 @@
-# @Time: 2024/10/3 15:32
-# @Author: Shen Hao
-# @File: QQ_Plot.py
-# @system: Win10
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 
@@ -15,11 +11,11 @@ def qq_plot(element_parameters):
 
     # 计算所需的子图数量
     num_subplots = min(num_columns, 12)
-    num_rows = 3
-    num_cols = 4
+    num_rows = 3  # 调整行数
+    num_cols = 4  # 调整列数
 
     # 创建子图布局
-    fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(24, 18), dpi=300)  # 增加图像尺寸和 DPI
+    fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(20, 15), dpi=300)  # 调整图像尺寸
 
     # 将axes转换为一维数组以便遍历
     axes = axes.flatten()
