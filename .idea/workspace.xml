@@ -5,33 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01edb23f-d982-4cb7-9853-726dcab76995" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/JB.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Linear_Regresssion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Shapiro_wilk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Spearman.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_ARiMA.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_BP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_LSTM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_MLP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_NeuralProphet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Test_Prophet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyChartsTool/Map_china_cities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyChartsTool/Map_visualmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyChartsTool/liner_aqi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chart/pearson_heatmap.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chart/qq_plots_4k.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Correlation_Analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Correlation_Analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main/Main_Project.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main_Project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Prediction_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Prediction_Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Reduced_Dimensional_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Reduced_Dimensional_Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Regression_Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Regression_Model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/QQ_Plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/QQ_Plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Statistical_Description.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Statistical_Description.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Stepwise_Linear_Regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Stepwise_Linear_Regression.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,6 +249,7 @@
       <workItem from="1730511424390" duration="2759000" />
       <workItem from="1730516477899" duration="1232000" />
       <workItem from="1730517758967" duration="182000" />
+      <workItem from="1730546725947" duration="8000" />
     </task>
     <servers />
   </component>

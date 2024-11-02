@@ -42,6 +42,7 @@ if __name__ == '__main__':
     stepwise_linear_regression_set(Research_Target, Pollutants_Data.iloc[:, 0])
     linear_regression_set(Research_Target, Pollutants_Data.iloc[:, 0])
 
+  
     # # 3.主成分分析
     # factor_num = int(input("请输入主成分个数："))
     # factor_analysis_set(Research_Target, factor_num)
